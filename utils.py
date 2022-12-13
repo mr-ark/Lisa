@@ -1,19 +1,3 @@
-
-anthappanorg
-/
-DQ-the-file-donor
-Public
-Code
-Issues
-Pull requests
-Projects
-Security
-Insights
-Lisa-Bot/utils.py
-@anthappanorg
-anthappanorg Update utils.py
- 9 contributors
-378 lines (345 sloc)  12.1 KB
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM
