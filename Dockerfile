@@ -10,12 +10,3 @@ RUN mkdir /DQ-The-File-Donor
 WORKDIR /DQ-The-File-Donor
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact
